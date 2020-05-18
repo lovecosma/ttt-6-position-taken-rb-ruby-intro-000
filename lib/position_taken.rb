@@ -3,6 +3,5 @@ def position_taken? (board[index])
   if index == "" || index == " "
     false
   elsif index == nil
-    false 
+    false
   elsif index == "X" || index == "O"
-    
